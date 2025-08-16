@@ -1,0 +1,46 @@
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T14:39:10.450Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T14:39:21.245Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:00:46.452Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:00:53.758Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:03:08.915Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"username\":\"Goodee\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:03:08.917Z"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at registerUser (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\src\\controllers\\identity-controller.js:40:5)\n    at Layer.handleRequest (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\router\\index.js:186:3)","service":"identity-service","timestamp":"2025-08-16T15:03:08.950Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:03:38.199Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:04:23.421Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:04:30.659Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:04:35.882Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"username\":\"Goodee\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:04:35.883Z"}
+{"level":"warn","message":"\"emai\" is required","service":"identity-service","timestamp":"2025-08-16T15:04:35.916Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:04:56.863Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:05:07.206Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:05:10.703Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"username\":\"Goodee\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:05:10.707Z"}
+{"level":"warn","message":"User already exist in the database","service":"identity-service","timestamp":"2025-08-16T15:05:11.036Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:05:28.673Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"username\":\"ayomide\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:05:28.677Z"}
+{"level":"warn","message":"User already exist in the database","service":"identity-service","timestamp":"2025-08-16T15:05:29.163Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:06:01.988Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:06:10.106Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:07:05.233Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"username\":\"ayomide\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:07:05.235Z"}
+{"level":"error","message":"Error during registration: secretOrPrivateKey must have a value","service":"identity-service","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at generateToken (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\src\\utils\\generateToken.js:4:27)\n    at registerUser (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\src\\controllers\\identity-controller.js:33:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-16T15:07:06.094Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:08:08.447Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:08:32.011Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:08:39.669Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:09:10.381Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:11:15.740Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"username\":\"ayomide\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:11:15.741Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:11:17.579Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:11:42.637Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"username\":\"ayomide\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-16T15:11:42.638Z"}
+{"level":"warn","message":"User already exist in the database","service":"identity-service","timestamp":"2025-08-16T15:12:08.672Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:14:17.317Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:14:23.705Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:14:26.454Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"username\":\"ayomide123\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:14:26.456Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:14:27.203Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:19:22.805Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:19:29.309Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:19:37.672Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:19:37.673Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:19:38.886Z"}
