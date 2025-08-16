@@ -57,6 +57,7 @@ const rateLimiter = new RateLimiterRedis({
   keyPrefix: "middleware",
   points: 10,
   duration: 1,
+  blockDuration: 15 * 60,
 });
 
 app.use(async function (req, res, next) {
@@ -95,7 +96,7 @@ app.use("/api/auth/register", sensitiveEndpointRateLimiter);
 app.use("/api/auth", sensitiveEndpointRateLimiter, authRoutes);
 
 app.use(errorHandler);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const startServer = async () => {
   app.listen(PORT, () => {

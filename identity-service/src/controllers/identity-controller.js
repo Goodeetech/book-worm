@@ -1,4 +1,4 @@
-const { validateRegisteration } = require("../utils/validation");
+const { validateRegisteration, validateLogin } = require("../utils/validation");
 const User = require("../model/User");
 const { generateToken } = require("../utils/generateToken");
 const logger = require("../utils/logger");
@@ -26,16 +26,20 @@ const registerUser = async (req, res) => {
         success: false,
       });
     }
+    const profilePicture = `https://api.dicebear.com/7.x/fun-emoji/svg?seed=${username}
+`;
 
-    user = new User({ email, username, password });
+    user = new User({ email, username, password, profilePicture });
     await user.save();
 
     const { accessToken } = await generateToken(user);
     logger.info(`User registered successfully`);
+
     return res.status(201).json({
       user: {
         username: user?.username,
         email: user?.email,
+        profilePicture: user?.profilePicture,
       },
       success: true,
       message: "User registered successfully",
@@ -46,9 +50,61 @@ const registerUser = async (req, res) => {
     return res.status(500).json({
       success: false,
       message: "Server error occurred",
-      error: error.message,
     });
   }
 };
 
-module.exports = { registerUser };
+const loginUser = async (req, res) => {
+  try {
+    const { error } = validateLogin(req.body);
+    if (error) {
+      logger.warn(error.details[0].message);
+      return res.status(400).json({
+        message: `Error ${error.details[0].message}`,
+        success: false,
+      });
+    }
+
+    const { email, password } = req.body;
+    const user = await User.findOne({ email });
+
+    if (!user) {
+      logger.info(`User does not exist, try registering with details`);
+      return res.status(400).json({
+        message: "User does not exist",
+        success: false,
+      });
+    }
+
+    const validPassword = await user.comparePassword(password);
+
+    if (!validPassword) {
+      logger.info(`Incorrect password, try again!`);
+      return res.status(400).json({
+        success: false,
+        message: "Incorrect Password, try again",
+      });
+    }
+
+    const { accessToken } = await generateToken(user);
+    logger.info("User logged in successfully");
+    return res.status(200).json({
+      data: {
+        user: user.username,
+        email: user.email,
+        profilePicture: user.profilePicture,
+      },
+      message: "User logged in successfully",
+      success: true,
+      accessToken,
+    });
+  } catch (error) {
+    logger.error(`Error occurred while trying to login user ${error}`);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server Error",
+    });
+  }
+};
+
+module.exports = { registerUser, loginUser };

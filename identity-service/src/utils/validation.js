@@ -9,4 +9,12 @@ const validateRegisteration = (data) => {
   return schema.validate(data);
 };
 
-module.exports = { validateRegisteration };
+const validateLogin = async (data) => {
+  const schema = Joi.object({
+    email: Joi.string().required().email(),
+    password: Joi.string().required().min(6).max(50),
+  });
+  return schema.validate(data);
+};
+
+module.exports = { validateRegisteration, validateLogin };

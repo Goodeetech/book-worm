@@ -44,3 +44,71 @@
 {"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:19:37.672Z"}
 {"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:19:37.673Z"}
 {"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:19:38.886Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:31:12.877Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:31:16.466Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:31:23.816Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:33:00.952Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:33:08.712Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:33:13.412Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:33:19.409Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:33:30.964Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:33:40.173Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:34:46.378Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:34:53.460Z"}
+{"level":"error","message":"SyntaxError: Expected double-quoted property name in JSON at position 77 (line 5 column 1)\n    at JSON.parse (<anonymous>)\n    at parse (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\body-parser\\lib\\types\\json.js:77:19)\n    at C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\body-parser\\lib\\read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)\n    at invokeCallback (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\raw-body\\index.js:238:16)\n    at done (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","service":"identity-service","timestamp":"2025-08-16T15:41:07.720Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:41:23.164Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\"}","service":"identity-service","timestamp":"2025-08-16T15:41:23.165Z"}
+{"level":"warn","message":"\"password\" is required","service":"identity-service","timestamp":"2025-08-16T15:41:23.203Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:41:47.705Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:41:47.706Z"}
+{"level":"warn","message":"User already exist in the database","service":"identity-service","timestamp":"2025-08-16T15:41:48.062Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:42:06.785Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:42:06.786Z"}
+{"level":"warn","message":"\"password\" length must be at least 6 characters long","service":"identity-service","timestamp":"2025-08-16T15:42:06.794Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:42:19.830Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:42:19.832Z"}
+{"level":"warn","message":"User already exist in the database","service":"identity-service","timestamp":"2025-08-16T15:42:20.070Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:48:24.315Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:48:31.851Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:48:49.949Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:48:55.126Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:49:50.736Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:49:57.183Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:50:00.725Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:50:00.726Z"}
+{"level":"error","message":"Error during registration: Cannot read properties of null (reading 'username')","service":"identity-service","stack":"TypeError: Cannot read properties of null (reading 'username')\n    at registerUser (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\identity-service\\src\\controllers\\identity-controller.js:29:84)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-08-16T15:50:01.004Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:52:57.243Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:53:02.605Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:53:05.199Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee1244@gmail.com\",\"username\":\"ayomide1244\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:53:05.200Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:53:06.522Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T15:55:41.281Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T15:55:48.756Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-16T15:55:51.696Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"username\":\"ayomide1\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T15:55:51.738Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-16T15:55:52.816Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:01:13.482Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T16:01:29.893Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:02:31.187Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T16:02:36.731Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:03:27.983Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T16:03:32.968Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:04:56.728Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T16:05:02.774Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:06:44.854Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T16:19:23.555Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T16:19:34.123Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-16T16:20:42.915Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T16:20:42.917Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-16T16:20:43.757Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-16T16:25:27.096Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T16:25:27.097Z"}
+{"level":"info","message":"Incorrect password, try again!","service":"identity-service","timestamp":"2025-08-16T16:25:27.808Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-16T16:26:01.322Z"}
+{"level":"info","message":"Request Body {\"email\":\"goode@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T16:26:01.326Z"}
+{"level":"info","message":"User does not exist, try registering with details","service":"identity-service","timestamp":"2025-08-16T16:26:01.535Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-16T16:26:17.007Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-16T16:26:17.008Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-16T16:26:17.678Z"}
+{"level":"info","message":"Server is running on port 3000","service":"identity-service","timestamp":"2025-08-16T17:12:11.467Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-16T17:12:17.931Z"}
