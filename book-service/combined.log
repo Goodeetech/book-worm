@@ -117,3 +117,28 @@
 {"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T23:17:22.403Z"}
 {"level":"error","message":"Error occurred while creating book Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","service":"book-service","timestamp":"2025-08-17T23:17:22.414Z"}
 {"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:250:15)\n    at createBook (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\src\\controller\\book-controller.js:79:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"book-service","timestamp":"2025-08-17T23:17:22.480Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:17:46.373Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:17:48.963Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:17:54.086Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:17:54.129Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-17T23:17:54.533Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:06.966Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:06.976Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:10.786Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:10.788Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:12.855Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:12.858Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:14.762Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:14.764Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:17.219Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:17.222Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:18:19.553Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:18:19.554Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-17T23:18:48.746Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-17T23:18:48.747Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T23:18:48.765Z"}
+{"level":"info","message":"File uploaded successfully with publicId: uakgggl3opcmm0dbi9yr","service":"book-service","timestamp":"2025-08-17T23:18:53.626Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T23:18:54.004Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:19:03.783Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:19:03.784Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-17T23:19:04.018Z"}
