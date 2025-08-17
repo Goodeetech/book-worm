@@ -4,3 +4,43 @@
 {"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-16T17:57:37.005Z"}
 {"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-16T17:58:04.089Z"}
 {"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-16T17:58:04.869Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-16T17:59:20.707Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-16T17:59:22.037Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-17T18:30:46.280Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-17T18:30:46.284Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-17T18:31:06.606Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-17T18:31:07.551Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:33:46.704Z"}
+{"level":"info","message":"Response receives from Post service: 500","service":"api-gateway","timestamp":"2025-08-17T18:33:46.788Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:35:43.241Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:35:43.310Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:36:18.882Z"}
+{"level":"info","message":"Response receives from Post service: 413","service":"api-gateway","timestamp":"2025-08-17T18:36:18.971Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:40:18.458Z"}
+{"level":"info","message":"Response receives from Post service: 413","service":"api-gateway","timestamp":"2025-08-17T18:40:18.478Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:42:34.998Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:42:35.130Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:43:21.555Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:43:21.635Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:44:46.631Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:44:46.747Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:47:21.907Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:47:22.079Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:50:44.490Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:50:44.534Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:51:25.898Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:51:25.987Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:53:53.121Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:53:53.149Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:54:24.230Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:54:24.248Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-17T18:54:48.956Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-17T18:54:50.109Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-17T18:58:51.098Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-17T18:58:51.108Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:59:05.635Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:59:05.698Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T18:59:54.304Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-17T18:59:54.432Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T19:00:08.016Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-17T19:00:11.881Z"}

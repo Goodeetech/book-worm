@@ -77,6 +77,40 @@ app.use(
   })
 );
 
+// setting up proxy for posts service
+app.use(
+  "/v1/books",
+  validateToken,
+  proxy(process.env.BOOK_SERVICE_URL, {
+    ...proxyOption,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      // proxyReqOpts.headers["Content-Type"] = "application/json";
+
+      if (!srcReq.headers["content-type"]?.includes("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      // ✅ Forward the original Authorization token
+      if (srcReq.headers["authorization"]) {
+        proxyReqOpts.headers["authorization"] = srcReq.headers["authorization"];
+      }
+
+      // ✅ Optional: Send decoded user ID as a separate custom header
+      if (srcReq.user?.userId) {
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      }
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response receives from Post service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+  })
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
