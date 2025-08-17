@@ -129,3 +129,6 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-17T18:31:06.664Z"}
 {"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-17T18:31:06.665Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-17T18:31:07.541Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-17T18:54:48.963Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-17T18:54:48.973Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-17T18:54:50.106Z"}

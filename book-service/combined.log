@@ -60,3 +60,15 @@
 {"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T19:03:35.900Z"}
 {"level":"info","message":"File uploaded successfully with publicId: vylzijc7dac2pyri7yov","service":"book-service","timestamp":"2025-08-17T19:03:39.844Z"}
 {"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T19:03:40.157Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T19:12:20.127Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T19:12:24.027Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-17T19:12:28.013Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-17T19:12:28.017Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T19:12:28.067Z"}
+{"level":"info","message":"File uploaded successfully with publicId: qx0j1bwlqwilohskjwz8","service":"book-service","timestamp":"2025-08-17T19:12:32.838Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T19:12:33.245Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-17T19:16:25.392Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-17T19:16:25.396Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T19:16:25.422Z"}
+{"level":"info","message":"File uploaded successfully with publicId: utqcbb1iqqa5vbpufmsh","service":"book-service","timestamp":"2025-08-17T19:16:29.374Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T19:16:29.553Z"}
