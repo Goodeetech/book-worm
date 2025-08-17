@@ -132,3 +132,5 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-17T18:54:48.963Z"}
 {"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-17T18:54:48.973Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-17T18:54:50.106Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-17T23:01:12.407Z"}
+{"level":"error","message":"Error occurred while connecting to the database Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.e4sih4m.mongodb.net","service":"identity-service","timestamp":"2025-08-17T23:01:12.442Z"}

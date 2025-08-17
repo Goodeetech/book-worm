@@ -72,3 +72,48 @@
 {"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T19:16:25.422Z"}
 {"level":"info","message":"File uploaded successfully with publicId: utqcbb1iqqa5vbpufmsh","service":"book-service","timestamp":"2025-08-17T19:16:29.374Z"}
 {"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T19:16:29.553Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T19:22:01.118Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:01:17.906Z"}
+{"level":"error","message":"Error occurred while connecting to the database Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.e4sih4m.mongodb.net","service":"book-service","timestamp":"2025-08-17T23:01:17.934Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:01:49.516Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:01:54.128Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:03:43.079Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:03:43.082Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-17T23:03:43.368Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:03:56.387Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:03:56.389Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:06:06.781Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:06:09.997Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:06:12.476Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:06:12.478Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:06:22.599Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:06:22.604Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:06:34.107Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:06:34.837Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:06:34.841Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:06:36.721Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-17T23:06:37.050Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:06:54.358Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:06:57.100Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:04.377Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:04.379Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:08.991Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:08.999Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:11.888Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:11.895Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:14.576Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:14.582Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:24.570Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:24.618Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:07:27.964Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:07:27.971Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:10:30.211Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:15:43.001Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:15:46.167Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-17T23:17:16.335Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-17T23:17:16.338Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-17T23:17:16.363Z"}
+{"level":"info","message":"File uploaded successfully with publicId: u21zeqjuuenkpiqkiaef","service":"book-service","timestamp":"2025-08-17T23:17:22.042Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-17T23:17:22.403Z"}
+{"level":"error","message":"Error occurred while creating book Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","service":"book-service","timestamp":"2025-08-17T23:17:22.414Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:699:11)\n    at ServerResponse.header (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\node_modules\\express\\lib\\response.js:250:15)\n    at createBook (C:\\Users\\USER\\Desktop\\New Project\\mobile\\book-worm\\book-service\\src\\controller\\book-controller.js:79:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","service":"book-service","timestamp":"2025-08-17T23:17:22.480Z"}

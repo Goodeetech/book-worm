@@ -3,7 +3,7 @@ const express = require("express");
 const multer = require("multer");
 const logger = require("../utils/logger");
 const { authRequest } = require("../middleware/authMiddleware");
-const { createBook } = require("../controller/book-controller");
+const { createBook, getAllBooks } = require("../controller/book-controller");
 
 const router = express.Router();
 
@@ -44,5 +44,6 @@ router.post(
   },
   createBook
 );
+router.get("/get-books", getAllBooks);
 
 module.exports = router;

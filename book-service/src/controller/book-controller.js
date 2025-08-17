@@ -4,6 +4,31 @@ const { uploadImageToCloudinary } = require("../utils/cloudinary");
 const validateBook = require("../utils/validateBook");
 const Book = require("../model/Book");
 
+const invalidateCachedBooks = async (req, res) => {
+  try {
+    let cursor = "0";
+    do {
+      const [cursorP, keys] = await req.redisClient.scan(
+        cursor,
+        "MATCH",
+        "books:*",
+        "COUNT",
+        100
+      );
+      cursor = cursorP;
+
+      if (keys.length > 0) {
+        await req.redisClient.del(...keys);
+      }
+    } while (cursor !== "0");
+  } catch (error) {
+    return res.status(500).json({
+      success: false,
+      message: "Error occurred while invalidating the cached books",
+    });
+  }
+};
+
 const createBook = async (req, res) => {
   logger.info(`Hit the create post endpoint`);
   try {
@@ -34,6 +59,7 @@ const createBook = async (req, res) => {
       imageId: cloudinaryUploadFile.public_id,
     });
     await book.save();
+    await invalidateCachedBooks(req, res);
     logger.info(`Book saved successfully`);
     return res.status(201).json({
       message: "Book saved successfully",
@@ -54,4 +80,48 @@ const createBook = async (req, res) => {
   }
 };
 
-module.exports = { createBook };
+const getAllBooks = async (req, res) => {
+  logger.info(`Get all book endpoint hit!`);
+
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 10;
+    const startIndex = (page - 1) * limit;
+    const cachedKey = `books:${page}:${limit}`;
+
+    const cachedBooks = await req.redisClient.get(cachedKey);
+
+    if (cachedBooks) {
+      return res.json(JSON.parse(cachedBooks));
+    }
+
+    const books = await Book.find({})
+      .sort({ createdAt: -1 })
+      .skip(startIndex)
+      .limit(limit);
+
+    if (!books) {
+      logger.info(`No books found`);
+      return res.status(401).json({
+        success: false,
+        message: "No books found",
+      });
+    }
+
+    logger.info(`Books found successfully`);
+    await req.redisClient.setex(cachedKey, 300, JSON.stringify(books));
+    return res.status(200).json({
+      books,
+      message: "Books found successfully",
+      success: true,
+    });
+  } catch (error) {
+    logger.error(`Error occurred while getting all books ${error}`);
+    return res.status(500).json({
+      success: false,
+      message: "Server error occured",
+    });
+  }
+};
+
+module.exports = { createBook, getAllBooks };

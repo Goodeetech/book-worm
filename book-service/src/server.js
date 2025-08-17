@@ -18,6 +18,8 @@ app.use(cors());
 app.use(helmet());
 connectDB();
 
+//initiate redis client
+const redisClient = new Redis(process.env.REDIS_URL);
 //rate limiter
 
 //request logger
@@ -47,7 +49,14 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api/books", bookRoute);
+app.use(
+  "/api/books",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  bookRoute
+);
 
 app.use(errorHandler);
 const PORT = process.env.PORT;
