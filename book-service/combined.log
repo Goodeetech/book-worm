@@ -142,3 +142,182 @@
 {"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-17T23:19:03.783Z"}
 {"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-17T23:19:03.784Z"}
 {"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-17T23:19:04.018Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-17T23:38:51.677Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-17T23:38:54.206Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:03:10.092Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:03:10.109Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:03:10.116Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:03:12.359Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:04:33.854Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:04:33.856Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:04:33.872Z"}
+{"level":"info","message":"File uploaded successfully with publicId: mhjxqsaagfg7y55z7j2z","service":"book-service","timestamp":"2025-08-18T19:04:48.043Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-18T19:04:48.259Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:05:00.746Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:05:00.747Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:05:01.181Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:06:01.672Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:06:01.694Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:06:01.699Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:06:04.921Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book","service":"book-service","timestamp":"2025-08-18T19:06:25.053Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:06:25.056Z"}
+{"level":"warn","message":"Book Id missing, please provide the book Id","service":"book-service","timestamp":"2025-08-18T19:06:25.057Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:06:54.509Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:06:54.522Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:06:54.528Z"}
+{"level":"info","message":"Closing RabbitMQ connection...","service":"book-service","timestamp":"2025-08-18T19:07:10.937Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:07:19.291Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:07:19.305Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:07:19.312Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:07:21.319Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a379506efed3c706e24cb6","service":"book-service","timestamp":"2025-08-18T19:07:28.573Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:07:28.577Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:07:28.774Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:08:44.102Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:08:44.117Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:08:44.126Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:08:47.140Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a379506efed3c706e24cb6","service":"book-service","timestamp":"2025-08-18T19:09:14.516Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:09:25.609Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:09:25.659Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:09:25.665Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:09:34.283Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a379506efed3c706e24cb6","service":"book-service","timestamp":"2025-08-18T19:09:36.657Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:09:36.661Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:09:38.308Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:09:38.309Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a379506efed3c706e24cb6","imageId":"mhjxqsaagfg7y55z7j2z"}},"service":"book-service","timestamp":"2025-08-18T19:09:38.333Z"}
+{"error":{"http_code":499,"message":"Request Timeout","name":"TimeoutError"},"level":"error","message":"Error while deleting media from cloudinary","service":"book-service","timestamp":"2025-08-18T19:09:43.488Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:14:11.661Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:14:11.680Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:14:11.686Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:14:24.870Z"}
+{"level":"info","message":"Received GET request to /api/books/delete-book/68a2635db29bd73b2e79b8c5","service":"book-service","timestamp":"2025-08-18T19:15:02.985Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a2635db29bd73b2e79b8c5","service":"book-service","timestamp":"2025-08-18T19:15:11.335Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:15:11.337Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:15:12.679Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:15:12.680Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a2635db29bd73b2e79b8c5","imageId":"uakgggl3opcmm0dbi9yr"}},"service":"book-service","timestamp":"2025-08-18T19:15:12.691Z"}
+{"level":"info","message":"Image deleted from Cloudinary: uakgggl3opcmm0dbi9yr","service":"book-service","timestamp":"2025-08-18T19:15:16.158Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:15:38.013Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:15:38.014Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:15:46.033Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a22a8dc94bf1663091a612","service":"book-service","timestamp":"2025-08-18T19:16:12.010Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:16:12.011Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:16:52.204Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:16:52.207Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a22a8dc94bf1663091a612","imageId":"utqcbb1iqqa5vbpufmsh"}},"service":"book-service","timestamp":"2025-08-18T19:16:52.221Z"}
+{"level":"info","message":"Image deleted from Cloudinary: utqcbb1iqqa5vbpufmsh","service":"book-service","timestamp":"2025-08-18T19:16:54.837Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:17:29.776Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:17:29.780Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a26302ddb571fdfe6a43f1","service":"book-service","timestamp":"2025-08-18T19:17:47.273Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:17:47.274Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:18:28.803Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a26302ddb571fdfe6a43f1","service":"book-service","timestamp":"2025-08-18T19:18:47.978Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:18:47.980Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:18:48.181Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:18:48.182Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a26302ddb571fdfe6a43f1","imageId":"u21zeqjuuenkpiqkiaef"}},"service":"book-service","timestamp":"2025-08-18T19:18:48.192Z"}
+{"level":"info","message":"Image deleted from Cloudinary: u21zeqjuuenkpiqkiaef","service":"book-service","timestamp":"2025-08-18T19:18:50.882Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:19:14.381Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:19:14.382Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-18T19:20:31.590Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:20:31.605Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-18T19:20:31.612Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-18T19:20:39.192Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a22a8dc94bf1663091a612","service":"book-service","timestamp":"2025-08-18T19:20:43.303Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:20:43.307Z"}
+{"level":"warn","message":"Book not found, please provide a valid book id","service":"book-service","timestamp":"2025-08-18T19:20:44.169Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a226bb556e62d2d0d09356","service":"book-service","timestamp":"2025-08-18T19:21:07.099Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:21:07.101Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:21:07.412Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a226bb556e62d2d0d09356","service":"book-service","timestamp":"2025-08-18T19:21:17.223Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:21:17.224Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:21:18.507Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:21:18.539Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a226bb556e62d2d0d09356","imageId":"jw5ugbwsaicg0ikttxms"}},"service":"book-service","timestamp":"2025-08-18T19:21:18.591Z"}
+{"level":"error","message":"Error while deleting media from Cloudinary: undefined","publicId":"jw5ugbwsaicg0ikttxms","service":"book-service","timestamp":"2025-08-18T19:21:23.683Z"}
+{"level":"error","message":"Error handling post deleted event:undefined","service":"book-service","timestamp":"2025-08-18T19:21:23.685Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:22:19.537Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:22:19.550Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:22:19.746Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a229a0c94bf1663091a610","service":"book-service","timestamp":"2025-08-18T19:22:38.364Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:22:38.369Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:22:38.575Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a229a0c94bf1663091a610","imageId":"qx0j1bwlqwilohskjwz8"}},"service":"book-service","timestamp":"2025-08-18T19:22:38.581Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:22:38.590Z"}
+{"level":"info","message":"Image deleted from Cloudinary: qx0j1bwlqwilohskjwz8","service":"book-service","timestamp":"2025-08-18T19:22:41.333Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:23:08.895Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:23:08.896Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:23:09.083Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:23:18.263Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:23:18.267Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:23:18.287Z"}
+{"level":"info","message":"File uploaded successfully with publicId: bva5vmhqcgaavnszfrua","service":"book-service","timestamp":"2025-08-18T19:23:22.646Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-18T19:23:24.647Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:23:31.290Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:23:31.297Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:23:31.471Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a2278bc2b0a35ed4a15cef","service":"book-service","timestamp":"2025-08-18T19:23:48.758Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:23:48.759Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:23:48.935Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a2278bc2b0a35ed4a15cef","service":"book-service","timestamp":"2025-08-18T19:23:59.518Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:23:59.519Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:23:59.704Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a2278bc2b0a35ed4a15cef","imageId":"vylzijc7dac2pyri7yov"}},"service":"book-service","timestamp":"2025-08-18T19:23:59.708Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:23:59.718Z"}
+{"level":"info","message":"Image deleted from Cloudinary: vylzijc7dac2pyri7yov","service":"book-service","timestamp":"2025-08-18T19:24:02.161Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:24:21.990Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:24:21.991Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:24:22.172Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:24:52.003Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:24:52.004Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:24:52.008Z"}
+{"level":"info","message":"File uploaded successfully with publicId: ifbbdwscdrci7jwvv4ui","service":"book-service","timestamp":"2025-08-18T19:24:56.676Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-18T19:24:56.865Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:25:05.861Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:25:05.862Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:25:06.047Z"}
+{"level":"info","message":"Received DELETE request to /api/books/delete-book/68a37e080197f6b745ee2056","service":"book-service","timestamp":"2025-08-18T19:25:19.545Z"}
+{"level":"info","message":"Delete single book endpoint hit","service":"book-service","timestamp":"2025-08-18T19:25:19.546Z"}
+{"level":"info","message":"Published event to RabbitMQ with routing key book.deleted","service":"book-service","timestamp":"2025-08-18T19:25:19.742Z"}
+{"0":"h","1":"a","10":"D","11":"e","12":"l","13":"e","14":"t","15":"e","16":"d","17":" ","18":"e","19":"v","2":"n","20":"e","21":"n","22":"t","23":" ","24":"r","25":"e","26":"c","27":"e","28":"i","29":"v","3":"d","30":"e","31":"d","4":"l","5":"e","6":"P","7":"o","8":"s","9":"t","level":"info","message":{"event":{"bookId":"68a37e080197f6b745ee2056","imageId":"ifbbdwscdrci7jwvv4ui"}},"service":"book-service","timestamp":"2025-08-18T19:25:19.746Z"}
+{"level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-08-18T19:25:19.757Z"}
+{"level":"info","message":"Image deleted from Cloudinary: ifbbdwscdrci7jwvv4ui","service":"book-service","timestamp":"2025-08-18T19:25:22.998Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:32:09.747Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:32:09.749Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:32:09.757Z"}
+{"level":"info","message":"File uploaded successfully with publicId: utdgmstalajy1imew2hh","service":"book-service","timestamp":"2025-08-18T19:32:15.845Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-18T19:32:16.063Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:32:36.737Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:32:36.741Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:32:36.783Z"}
+{"level":"info","message":"\"rating\" must be less than or equal to 5","service":"book-service","timestamp":"2025-08-18T19:32:36.798Z"}
+{"level":"info","message":"Received POST request to /api/books/create-book","service":"book-service","timestamp":"2025-08-18T19:32:44.963Z"}
+{"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-18T19:32:44.967Z"}
+{"level":"info","message":"Hit the create post endpoint","service":"book-service","timestamp":"2025-08-18T19:32:45.012Z"}
+{"level":"info","message":"File uploaded successfully with publicId: dkrjajjwlqjnxuqlmmuw","service":"book-service","timestamp":"2025-08-18T19:32:49.633Z"}
+{"level":"info","message":"Book saved successfully","service":"book-service","timestamp":"2025-08-18T19:32:49.869Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:32:56.117Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:32:56.118Z"}
+{"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-18T19:32:56.347Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:33:06.171Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:33:06.193Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:33:15.428Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:33:15.432Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:33:18.678Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:33:18.683Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:33:26.611Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:33:26.611Z"}
+{"level":"info","message":"Received GET request to /api/books/get-books","service":"book-service","timestamp":"2025-08-18T19:33:37.105Z"}
+{"level":"info","message":"Get all book endpoint hit!","service":"book-service","timestamp":"2025-08-18T19:33:37.119Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a37fbf0197f6b745ee205a","service":"book-service","timestamp":"2025-08-18T19:33:58.086Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:33:58.087Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:33:58.253Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a37fbf0197f6b745ee205a","service":"book-service","timestamp":"2025-08-18T19:34:21.598Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:34:21.600Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:34:21.901Z"}
+{"level":"info","message":"Received GET request to /api/books/get-book/68a37fbf0197f6b745ee205a","service":"book-service","timestamp":"2025-08-18T19:34:26.211Z"}
+{"level":"info","message":"Hit the get single book endpoint","service":"book-service","timestamp":"2025-08-18T19:34:26.214Z"}
+{"level":"info","message":"Book Found successfully","service":"book-service","timestamp":"2025-08-18T19:34:26.402Z"}

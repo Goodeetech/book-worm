@@ -3,7 +3,12 @@ const express = require("express");
 const multer = require("multer");
 const logger = require("../utils/logger");
 const { authRequest } = require("../middleware/authMiddleware");
-const { createBook, getAllBooks } = require("../controller/book-controller");
+const {
+  createBook,
+  getAllBooks,
+  getSingleBook,
+  deleteSingleBook,
+} = require("../controller/book-controller");
 
 const router = express.Router();
 
@@ -45,5 +50,7 @@ router.post(
   createBook
 );
 router.get("/get-books", getAllBooks);
+router.get("/get-book/:id", getSingleBook);
+router.delete("/delete-book/:id", deleteSingleBook);
 
 module.exports = router;

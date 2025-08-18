@@ -139,3 +139,10 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-17T23:02:59.869Z"}
 {"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-17T23:02:59.880Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-17T23:03:00.947Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-17T23:38:56.489Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-17T23:38:58.710Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-18T19:03:05.255Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-18T19:03:10.275Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-18T19:04:00.027Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-18T19:04:00.052Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-18T19:04:00.928Z"}

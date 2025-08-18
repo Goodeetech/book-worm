@@ -3,6 +3,7 @@ const logger = require("../utils/logger");
 const { uploadImageToCloudinary } = require("../utils/cloudinary");
 const validateBook = require("../utils/validateBook");
 const Book = require("../model/Book");
+const { publishEvent } = require("../utils/rabbitMq");
 
 const invalidateCachedBooks = async (req, res) => {
   try {
@@ -124,4 +125,84 @@ const getAllBooks = async (req, res) => {
   }
 };
 
-module.exports = { createBook, getAllBooks };
+const getSingleBook = async (req, res) => {
+  logger.info(`Hit the get single book endpoint`);
+  try {
+    const bookId = req.params.id;
+
+    if (!bookId) {
+      logger.warn(`Book Id missing, please provide the book Id`);
+      return res.status(400).json({
+        message: "Book Id missing, please provide the book Id",
+        success: false,
+      });
+    }
+
+    const book = await Book.findById(bookId);
+
+    if (!book) {
+      logger.warn(`Book not found, please try again!`);
+      return res.status(404).json({
+        success: false,
+        message: "Book not found, check the Id and try again",
+      });
+    }
+
+    logger.info(`Book Found successfully`);
+    return res.status(200).json({
+      book,
+      success: true,
+      message: "Book found successfully",
+    });
+  } catch (error) {
+    logger.error(`Error occurred while trying to get single book`);
+    return res.status(500).json({
+      success: false,
+      message: "Internal Server Error",
+    });
+  }
+};
+
+const deleteSingleBook = async (req, res) => {
+  logger.info(`Delete single book endpoint hit`);
+
+  try {
+    const bookId = req.params.id;
+    if (!bookId) {
+      logger.warn(`Book Id is missing, please provide the book Id`);
+      return res.status(400).json({
+        success: false,
+        message: "Book Id is missing, please provide the book Id",
+      });
+    }
+    const book = await Book.findByIdAndDelete(bookId);
+
+    if (!book) {
+      logger.warn(`Book not found, please provide a valid book id`);
+      return res.status(404).json({
+        message: "Book not found, provide a valid book Id",
+        success: false,
+      });
+    }
+
+    await publishEvent("book.deleted", {
+      bookId: book._id.toString(),
+      imageId: book.imageId,
+    });
+    await invalidateCachedBooks(req, res);
+    logger.info(`Book deleted successfully`);
+    return res.status(200).json({
+      message: "Book deleted successfully",
+      success: true,
+      bookId: book._id,
+    });
+  } catch (error) {
+    logger.error(`Error occurred while trying to delete single book`);
+    return res.status(500).json({
+      message: "Internal server error",
+      success: false,
+    });
+  }
+};
+
+module.exports = { createBook, getAllBooks, getSingleBook, deleteSingleBook };

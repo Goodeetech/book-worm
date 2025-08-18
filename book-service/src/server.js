@@ -10,6 +10,8 @@ const connectDB = require("./database/db");
 
 const bookRoute = require("./routes/book-routes");
 const errorHandler = require("./middleware/errorHandler");
+const { consumeEvent } = require("./utils/rabbitMq");
+const { handleImageDeleted } = require("./eventHandler/event-handler");
 
 // middleware security
 const app = express();
@@ -62,6 +64,7 @@ app.use(errorHandler);
 const PORT = process.env.PORT;
 
 const startServer = async () => {
+  await consumeEvent("book.deleted", handleImageDeleted);
   app.listen(PORT, () => {
     logger.info(`Server running on port ${PORT}`);
   });

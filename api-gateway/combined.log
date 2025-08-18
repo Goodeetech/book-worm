@@ -52,3 +52,137 @@
 {"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-17T19:12:33.267Z"}
 {"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T19:16:25.373Z"}
 {"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-17T19:16:29.569Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-17T23:01:22.532Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-17T23:01:22.537Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-17T23:02:59.748Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-17T23:03:00.964Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:03:43.015Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:03:43.393Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:03:56.379Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:03:56.393Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:06:12.433Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:06:12.491Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:06:22.573Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:06:22.625Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:06:34.771Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:06:37.080Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:06:51.533Z"}
+{"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-17T23:06:51.541Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:04.301Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:04.390Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:08.962Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:09.021Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:11.871Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:11.907Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:14.560Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:14.596Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:24.550Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:24.640Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:07:27.943Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:07:27.985Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T23:17:16.318Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:17:22.405Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:17:54.021Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:17:54.545Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:06.958Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:06.981Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:10.778Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:10.795Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:12.838Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:12.932Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:14.757Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:14.768Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:17.207Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:17.242Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:18:19.548Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:18:19.558Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-17T23:18:48.746Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-17T23:18:54.016Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-17T23:19:03.781Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-17T23:19:04.029Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-17T23:38:45.465Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-17T23:38:45.583Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-18T19:03:13.147Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-18T19:03:13.152Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-18T19:03:59.961Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-18T19:04:00.946Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:04:33.801Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-18T19:04:48.268Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:05:00.667Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:05:01.185Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book","service":"api-gateway","timestamp":"2025-08-18T19:06:25.011Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-18T19:06:25.068Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a379506efed3c706e24cb6","service":"api-gateway","timestamp":"2025-08-18T19:07:28.532Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:07:28.785Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a379506efed3c706e24cb6","service":"api-gateway","timestamp":"2025-08-18T19:09:14.468Z"}
+{"level":"info","message":"Response receives from Post service: 404","service":"api-gateway","timestamp":"2025-08-18T19:09:14.525Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a379506efed3c706e24cb6","service":"api-gateway","timestamp":"2025-08-18T19:09:36.604Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:09:38.317Z"}
+{"level":"info","message":"Received GET request to /v1/books/delete-book/68a2635db29bd73b2e79b8c5","service":"api-gateway","timestamp":"2025-08-18T19:15:02.932Z"}
+{"level":"info","message":"Response receives from Post service: 404","service":"api-gateway","timestamp":"2025-08-18T19:15:03.009Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a2635db29bd73b2e79b8c5","service":"api-gateway","timestamp":"2025-08-18T19:15:11.326Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:15:12.688Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:15:38.007Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:15:46.039Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a22a8dc94bf1663091a612","service":"api-gateway","timestamp":"2025-08-18T19:16:11.984Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:16:52.206Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:17:29.766Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:17:29.784Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a26302ddb571fdfe6a43f1","service":"api-gateway","timestamp":"2025-08-18T19:17:47.266Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:18:28.808Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a26302ddb571fdfe6a43f1","service":"api-gateway","timestamp":"2025-08-18T19:18:47.971Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:18:48.186Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:19:14.376Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:19:14.385Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a22a8dc94bf1663091a612","service":"api-gateway","timestamp":"2025-08-18T19:20:43.266Z"}
+{"level":"info","message":"Response receives from Post service: 404","service":"api-gateway","timestamp":"2025-08-18T19:20:44.180Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a226bb556e62d2d0d09356","service":"api-gateway","timestamp":"2025-08-18T19:21:07.091Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:21:07.417Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a226bb556e62d2d0d09356","service":"api-gateway","timestamp":"2025-08-18T19:21:17.217Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:21:18.557Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:22:19.527Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:22:19.774Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a229a0c94bf1663091a610","service":"api-gateway","timestamp":"2025-08-18T19:22:38.356Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:22:38.596Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:23:08.890Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:23:09.086Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:23:18.255Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-18T19:23:24.650Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:23:31.283Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:23:31.477Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a2278bc2b0a35ed4a15cef","service":"api-gateway","timestamp":"2025-08-18T19:23:48.752Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:23:48.950Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a2278bc2b0a35ed4a15cef","service":"api-gateway","timestamp":"2025-08-18T19:23:59.511Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:23:59.725Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:24:21.984Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:24:22.175Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:24:51.957Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-18T19:24:56.868Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:25:05.857Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:25:06.086Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/delete-book/68a37e080197f6b745ee2056","service":"api-gateway","timestamp":"2025-08-18T19:25:19.539Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:25:19.767Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:32:09.729Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-18T19:32:16.064Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:32:36.704Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-18T19:32:36.802Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api-gateway","timestamp":"2025-08-18T19:32:44.937Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-18T19:32:49.873Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:32:56.106Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:32:56.351Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:33:06.152Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:06.199Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:33:15.407Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:15.444Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:33:18.664Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:18.682Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:33:26.599Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:26.611Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-books","service":"api-gateway","timestamp":"2025-08-18T19:33:37.086Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:37.117Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a37fbf0197f6b745ee205a","service":"api-gateway","timestamp":"2025-08-18T19:33:58.072Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:33:58.251Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a37fbf0197f6b745ee205a","service":"api-gateway","timestamp":"2025-08-18T19:34:21.585Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:34:21.906Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-book/68a37fbf0197f6b745ee205a","service":"api-gateway","timestamp":"2025-08-18T19:34:26.175Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-18T19:34:26.406Z"}
