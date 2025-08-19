@@ -146,3 +146,30 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-18T19:04:00.027Z"}
 {"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-18T19:04:00.052Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-18T19:04:00.928Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:24:50.246Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:25:02.842Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-19T13:25:31.929Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-19T13:25:31.931Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-19T13:25:34.175Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:45:58.408Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:46:01.901Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:46:23.716Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:46:26.371Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:46:35.074Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:46:37.737Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:47:08.224Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:47:11.837Z"}
+{"level":"info","message":"Received POST request to /v1/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T13:54:29.886Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T13:54:29.888Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T13:56:33.993Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T13:56:37.557Z"}
+{"level":"info","message":"Received POST request to /v1/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T13:56:55.551Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T13:56:55.552Z"}
+{"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T14:01:47.818Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:01:47.819Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-19T14:03:28.649Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-19T14:03:31.892Z"}
+{"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T14:04:33.601Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:04:33.603Z"}
+{"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T14:17:44.573Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:17:44.575Z"}

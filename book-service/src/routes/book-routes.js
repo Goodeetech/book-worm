@@ -8,6 +8,7 @@ const {
   getAllBooks,
   getSingleBook,
   deleteSingleBook,
+  getMyBooks,
 } = require("../controller/book-controller");
 
 const router = express.Router();
@@ -49,8 +50,9 @@ router.post(
   },
   createBook
 );
-router.get("/get-books", getAllBooks);
-router.get("/get-book/:id", getSingleBook);
-router.delete("/delete-book/:id", deleteSingleBook);
+router.get("/get-books", authRequest, getAllBooks);
+router.get("/get-book/:id", authRequest, getSingleBook);
+router.delete("/delete-book/:id", authRequest, deleteSingleBook);
+router.get("/mybooks", authRequest, getMyBooks);
 
 module.exports = router;

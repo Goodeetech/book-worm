@@ -4,6 +4,7 @@ const { uploadImageToCloudinary } = require("../utils/cloudinary");
 const validateBook = require("../utils/validateBook");
 const Book = require("../model/Book");
 const { publishEvent } = require("../utils/rabbitMq");
+const axios = require("axios");
 
 const invalidateCachedBooks = async (req, res) => {
   try {
@@ -109,13 +110,41 @@ const getAllBooks = async (req, res) => {
       });
     }
 
+    // collect all unique userIds
+    const userIds = [...new Set(books.map((b) => b.userId.toString()))];
+
+    // call auth-service to fetch user details
+    const { data: users } = await axios.post(
+      "http://localhost:3001/api/auth/users/bulk", // replace with your real auth-service endpoint
+      { ids: userIds }
+    );
+
+    // build a map for quick lookup
+    const userMap = {};
+    users.forEach((user) => {
+      userMap[user._id] = user;
+    });
+
+    // attach user details to books
+    const booksWithUsers = books.map((book) => ({
+      ...book.toObject(),
+      user: userMap[book.userId.toString()] || null,
+    }));
+
     logger.info(`Books found successfully`);
-    await req.redisClient.setex(cachedKey, 300, JSON.stringify(books));
-    return res.status(200).json({
-      books,
+
+    const totalBooks = await Book.countDocuments();
+
+    const result = {
+      books: booksWithUsers,
+      currentPage: page,
+      totalBooks,
+      totalPages: Math.ceil(totalBooks / limit),
       message: "Books found successfully",
       success: true,
-    });
+    };
+    await req.redisClient.setex(cachedKey, 300, JSON.stringify(result));
+    return res.status(200).json(result);
   } catch (error) {
     logger.error(`Error occurred while getting all books ${error}`);
     return res.status(500).json({
@@ -175,20 +204,29 @@ const deleteSingleBook = async (req, res) => {
         message: "Book Id is missing, please provide the book Id",
       });
     }
-    const book = await Book.findByIdAndDelete(bookId);
+    const book = await Book.findOneAndDelete({
+      _id: bookId,
+      userId: req.user.userId,
+    });
 
     if (!book) {
-      logger.warn(`Book not found, please provide a valid book id`);
+      logger.warn(
+        `Book not found or not authorized, please provide a valid book id`
+      );
       return res.status(404).json({
-        message: "Book not found, provide a valid book Id",
+        message: "Book not found or not authorized, provide a valid book Id",
         success: false,
       });
     }
 
-    await publishEvent("book.deleted", {
-      bookId: book._id.toString(),
-      imageId: book.imageId,
-    });
+    try {
+      await publishEvent("book.deleted", {
+        bookId: book._id.toString(),
+        imageId: book.imageId,
+      });
+    } catch (err) {
+      logger.error("Failed to publish book.deleted event", err);
+    }
     await invalidateCachedBooks(req, res);
     logger.info(`Book deleted successfully`);
     return res.status(200).json({
@@ -205,4 +243,38 @@ const deleteSingleBook = async (req, res) => {
   }
 };
 
-module.exports = { createBook, getAllBooks, getSingleBook, deleteSingleBook };
+const getMyBooks = async (req, res) => {
+  try {
+    const myBooks = await Book.find({ userId: req.user.userId }).sort({
+      createdAt: -1,
+    });
+    if (!myBooks || !myBooks.length) {
+      logger.info(`Books no found, try creating some books`);
+      return res.status(404).json({
+        message: "Book not found, try and create some books",
+        success: false,
+      });
+    }
+
+    logger.info(`Books found successfully`);
+    return res.status(200).json({
+      message: "Books gotten successfully",
+      success: true,
+      books: myBooks,
+    });
+  } catch (error) {
+    logger.error(`Error occurred while getting the user books`);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
+};
+
+module.exports = {
+  createBook,
+  getAllBooks,
+  getSingleBook,
+  deleteSingleBook,
+  getMyBooks,
+};

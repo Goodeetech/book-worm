@@ -107,4 +107,22 @@ const loginUser = async (req, res) => {
   }
 };
 
-module.exports = { registerUser, loginUser };
+const getUserBulk = async (req, res) => {
+  try {
+    const { ids } = req.body;
+    if (!ids || !ids.length) {
+      return res
+        .status(400)
+        .json({ success: false, message: "No IDs provided" });
+    }
+    const users = await User.find({ _id: { $in: ids } }).select(
+      "username profilePicture"
+    );
+
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ message: "Error fetching users" });
+  }
+};
+
+module.exports = { registerUser, loginUser, getUserBulk };

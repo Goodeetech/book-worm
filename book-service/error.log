@@ -12,3 +12,6 @@
 {"error":{"http_code":499,"message":"Request Timeout","name":"TimeoutError"},"level":"error","message":"Error while deleting media from cloudinary","service":"book-service","timestamp":"2025-08-18T19:09:43.488Z"}
 {"level":"error","message":"Error while deleting media from Cloudinary: undefined","publicId":"jw5ugbwsaicg0ikttxms","service":"book-service","timestamp":"2025-08-18T19:21:23.683Z"}
 {"level":"error","message":"Error handling post deleted event:undefined","service":"book-service","timestamp":"2025-08-18T19:21:23.685Z"}
+{"level":"error","message":"Error occurred while getting all books MissingSchemaError: Schema hasn't been registered for model \"User\".\nUse mongoose.model(name, schema)","service":"book-service","timestamp":"2025-08-19T13:26:01.008Z"}
+{"level":"error","message":"Error occurred while getting all books AxiosError: Request failed with status code 404","service":"book-service","timestamp":"2025-08-19T13:54:29.946Z"}
+{"level":"error","message":"Error occurred while getting all books AxiosError: Request failed with status code 404","service":"book-service","timestamp":"2025-08-19T13:56:55.568Z"}
