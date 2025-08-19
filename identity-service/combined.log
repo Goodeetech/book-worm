@@ -173,3 +173,16 @@
 {"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:04:33.603Z"}
 {"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T14:17:44.573Z"}
 {"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:17:44.575Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-19T14:45:03.740Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"username\":\"ayomide123\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-19T14:45:03.742Z"}
+{"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-19T14:45:07.737Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-19T14:45:34.277Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee123@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-19T14:45:34.291Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-19T14:45:35.481Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-19T14:46:57.598Z"}
+{"level":"info","message":"Request Body {\"email\":\"goodee@gmail.com\",\"password\":\"[REDACTED]\"}","service":"identity-service","timestamp":"2025-08-19T14:46:57.599Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-08-19T14:46:58.804Z"}
+{"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T14:47:39.276Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:47:39.280Z"}
+{"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T15:16:17.757Z"}
+{"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T15:16:17.761Z"}
