@@ -259,3 +259,7 @@
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-19T15:16:18.274Z"}
 {"level":"info","message":"Received GET request to /v1/books/mybooks","service":"api-gateway","timestamp":"2025-08-19T15:17:30.594Z"}
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-19T15:17:33.477Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-19T15:18:48.778Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-19T15:18:48.789Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-21T16:12:10.021Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-21T16:12:10.031Z"}

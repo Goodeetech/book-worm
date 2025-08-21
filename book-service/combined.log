@@ -536,3 +536,10 @@
 {"level":"warn","message":"Started with the authentication","service":"book-service","timestamp":"2025-08-19T15:17:30.696Z"}
 {"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-19T15:17:32.991Z"}
 {"level":"info","message":"Books found successfully","service":"book-service","timestamp":"2025-08-19T15:17:33.445Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-19T15:18:55.893Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-19T15:18:55.918Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-19T15:18:55.930Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"book-service","timestamp":"2025-08-21T16:12:16.494Z"}
+{"level":"info","message":"Waiting for messages with routing key book.deleted","service":"book-service","timestamp":"2025-08-21T16:12:16.509Z"}
+{"level":"info","message":"Server running on port 3002","service":"book-service","timestamp":"2025-08-21T16:12:16.513Z"}
+{"level":"info","message":"Database connected successfully","service":"book-service","timestamp":"2025-08-21T16:12:33.495Z"}

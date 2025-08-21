@@ -186,3 +186,5 @@
 {"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T14:47:39.280Z"}
 {"level":"info","message":"Received POST request to /api/auth/users/bulk","service":"identity-service","timestamp":"2025-08-19T15:16:17.757Z"}
 {"level":"info","message":"Request Body {\"ids\":[\"68a0aa087d12a0a4ed2f39fd\"]}","service":"identity-service","timestamp":"2025-08-19T15:16:17.761Z"}
+{"level":"info","message":"Server is running on port 3001","service":"identity-service","timestamp":"2025-08-21T16:12:29.121Z"}
+{"level":"info","message":"Connected to the database successfully","service":"identity-service","timestamp":"2025-08-21T16:12:33.678Z"}
